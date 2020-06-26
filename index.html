@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Our CAS Project </title>
+  <meta charset = 'UTF-8'>
+  <link href = "style.css" rel = "stylesheet" type = "text/css">
+</head>
+<body>
+  <header>
+    <h1> Game Manual Website For 2048 </h1>
+  </header>
+<div class="row">
+  <div class = "column">
+    <h3> Introduction to 2048 </h3>
+    <p> 2048 is a simple single player video game where one person slides numbered titles either horizontally or vertically (Up, Down, Left, Right) on a 4 by 4 board. </p>
+    <p> When tiles are sliding, they travel all the way up, down, left or right across the board unless there is another tile with a different number that prevents them from travelling any further. </p> 
+    <p> When a person makes a move, another tile appears in a random postion on this 4 by 4 board. </p> 
+    <p> Each numbered tile in this game is a power of 2 (2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048) and each numbered tile has a different colour. </p> 
+    <p> The starting board contains 2 numbers (usually 2 and/or 4)and these numbers are placed in random positions on the 4 by 4 board. </p>
+    <h4> Figure 1: Sample Starting Board </h4>
+    <img src = "startingBoard.jpg" alt = "Starting Board" width = "300" height = "300">
+  </div>
+  <div class = "column">
+    <h3> Stacking numbered tiles in 2048 </h3>
+    <p> If 2 numbered titles have the same number and are in the same row/column, they can be stacked on each other to form 1 new numbered tile that is the sum of the 2 previous numbered titles as shown below in Figure 3. </p>
+    <h4> Figure 2: Before 2 numbered tiles form 1 larger tile </h4>
+    <img src = "boardOne.jpg" alt = "Board One" width = "300" height = "300">
+    <hr>
+    <h4> Figure 3: After the 2 numbered tiles form 1 larger tile</h4>
+    <img src = "boardTwo.jpg" alt = "Board Two" width = "300" height = "300">
+    <p> In Figure 3 above, the numbered tile with the number 4 is formed by adding the two tiles with the number 2 from Figure 2. </p>
+    <p> In addition, in Figure 3, the numbered tile with the number 2 is a tile that randomly appeared after the person chose to stack the two tiles from Figure 2. </p> 
+  </div>
+  <div class = "column">
+    <h3> The objective of 2048 </h3>
+    <p> The objective of the game is to stack numbered titles in order to form the 2048 tile. </p> 
+    <p> Before forming a tile with the number 2048: </p>
+    <ol> 
+      <li> Two tiles with the number 2 need to form a larger tile with the number 4. </li>
+      <li> Two tiles with the number 4 need to form a larger tile with the number 8. </li>
+      <li> Two tiles with the number 8 need to form a larger tile with the number 16. </li>
+      <li> Two tiles with the number 16 need to form a larger tile with the number 32. </li>
+      <li> Two tiles with the number 32 need to form a larger tile with the number 64. </li>
+      <li> Two tiles with the number 64 need to form a larger tile with the number 128. </li>
+      <li> Two tiles with the number 128 need to form a larger tile with the number 256. </li>
+      <li> Two tiles with the number 256 need to form a larger tile with the number 512. </li>
+      <li> Two tiles with the number 512 need to form a larger tile with the number 1024. </li>
+      <li> Two tiles with the number 1024 will be able to form a larger tile with the number 2048. </li> 
+    </ol>
+    <h3> Reasons to play 2048 </h3>
+    <ul> 
+      <li> 2048 helps enhances basic arithmetic. </li>
+      <li> 2048 improves estimation skills. </li> 
+      <li> 2048 develops strategical thinking. </li> 
+    </ul>
+  </div>
+</div>
+</body>
+</html>
