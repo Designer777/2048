@@ -7,26 +7,32 @@
 </head>
 <body>
   <header>
+    <a href = "index.html"> Home </a>
+    <a href = "product.html"> Our Product </a>
     <!-- The main heading for the website. Since this heading uses the h1 tag, it is the most important one. Therefore, it is the largest heading.-->
     <h1> Game Manual Website For 2048 </h1>
+    <!--Using a h2 heading for the website, but it is smaller than the main one (h1)-->
+    <h2> By: Kevin Zhu and Darren Liu
   </header>
 <!-- Creating rows and columns for the website so it would be more organized-->
 <div class="row">
   <div class = "column">
-    <!--Using a h3 heading for the website, but it is smaller than the main one (h1)-->
-    <!--I have used h3 headings to begin each section of the website-->
+    <!--Using a h3 heading for the website, but it is smaller than h2-->
+    <!--We have used h3 headings to begin each section of the website-->
     <h3> Introduction to 2048 </h3>
     <!--This section uses paragraphs to provide the reader with an introduction of the game-->
     <p> 2048 is a simple single player video game where one person slides numbered titles either horizontally or vertically (Up, Down, Left, Right) on a 4 by 4 board. </p>
     <p> When tiles are sliding, they travel all the way up, down, left or right across the board unless there is another tile with a different number that prevents them from travelling any further. </p> 
-    <p> When a person makes a move, another tile appears in a random postion on this 4 by 4 board. </p> 
+    <p> When the player makes a move, another tile appears in a random postion on this 4 by 4 board. The title that appears on the board is usually a 2 or 4. </p> 
     <p> Each numbered tile in this game is a power of 2 (2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048) and each numbered tile has a different colour. </p> 
     <p> The starting board contains 2 numbers (usually 2 and/or 4)and these numbers are placed in random positions on the 4 by 4 board. </p>
     <!--Using a h4 heading for the website, but it is smaller than the h3 heading.-->
-    <!--I have used h4 headings to introduce an image-->
-    <h4> Figure 1: Sample Starting Board </h4>
-    <!--Figure 1 is an illustration of the board at the beginning of the game-->
-    <img src = "startingBoard.jpg" alt = "Starting Board" width = "300" height = "300">
+      <!--We have used h4 headings to introduce an image-->
+      <h4> Figure 1: Sample Starting Board </h4>
+      <!--Figure 1 is an illustration of the board at the beginning of the game-->
+      <center>
+        <img src = "startingBoard.jpg" alt = "Starting Board" width = "300" height = "300">
+      </center>
   </div>
   <!--Creating a second column for the website-->
   <div class = "column">
@@ -36,14 +42,16 @@
     <p> If 2 numbered titles have the same number and are in the same row/column, they can be stacked on each other to form 1 new numbered tile that is the sum of the 2 previous numbered titles as shown below in Figure 3. </p>
 
     <!--Figures 2 and 3 provide the audience with a visual representation for how tiles are stacked together-->
-    <!--Using another h4 heading-->
-    <h4> Figure 2: Before 2 numbered tiles form 1 larger tile </h4>
-    <img src = "boardOne.JPG" alt = "Board One" width = "300" height = "300">
-    <!--Using a thematic break-->
-    <hr>
-    <!--Using a third h4 heading-->
-    <h4> Figure 3: After the 2 numbered tiles form 1 larger tile</h4>
-    <img src = "boardTwo.JPG" alt = "Board Two" width = "300" height = "300">
+      <!--Using another h4 heading-->
+      <h4> Figure 2: Before 2 numbered tiles form 1 larger tile </h4>
+      <!--Using a third h4 heading-->
+      <center>
+        <img src = "boardOne.JPG" alt = "Board One" width = "300" height = "300">
+    </center>
+      <h4> Figure 3: After the 2 numbered tiles form 1 larger tile</h4>
+    <center>  
+      <img src = "boardTwo.JPG" alt = "Board Two" width = "300" height = "300">
+    </center>
     <p> In Figure 3 above, the numbered tile with the number 4 is formed by adding the two tiles with the number 2 from Figure 2. </p>
     <p> In addition, in Figure 3, the numbered tile with the number 2 is a tile that randomly appeared after the person chose to stack the two tiles from Figure 2. </p> 
   </div>

@@ -9,6 +9,11 @@ h1 {
   color:lightcoral;
 }
 
+h2 {
+  text-align: center;
+  color: orange;
+}
+
 h3 {
   color: lightgreen;
 }
@@ -20,6 +25,7 @@ h4 {
 a {
   padding: 25px;
   font-size: 15px;
+  color: lightblue;
 }
 
 p {
@@ -29,6 +35,7 @@ p {
 li {
   color: lightblue;
 }
+
 
 .row {
   padding: 0;
